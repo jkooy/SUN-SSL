@@ -7,7 +7,7 @@ python 0.1main_moco.py \-a resnet50 \--lr 0.03 \--batch-size 128  \--dist-url 't
 # Source dataset preparation
 ## SUN dataset preparation
 wget http://vision.princeton.edu/projects/2010/SUN/SUN397.tar.gz
-tar -xzf SUN397.tar.gz
+&& tar -xzf SUN397.tar.gz
 
 ## Imagenet dataset preparation
 bash preprocessing.sh
